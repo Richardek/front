@@ -1,0 +1,103 @@
+.exercise-form-container{
+    min-height: 100vh;
+    background-color: rgba(192, 237, 255, 0.301);
+}
+.exercise-form-container h1{
+    margin: 0;
+    padding-top: 20px;
+}
+
+
+.exercise-form-title{
+text-align: center;
+font-family: 'Comfortaa', cursive;
+}
+
+.exercise-form-btn-container{
+    width: 100%
+}
+.exercise-form-btn-custom-container{
+    float: left;
+width: 50%;
+border-radius: 5px;
+margin-left:-10px;
+
+}
+.exercise-form-btn-strength{
+    background-color: rgb(247, 215, 128);
+
+}
+.exercise-form-btn-custom{
+    background-color: rgb(250, 152, 116);
+}
+.exercise-form-btn-strength, .exercise-form-btn-custom{
+    font-size: 14px;
+
+height: 35px;
+border-radius: 5px;
+font-family: 'Comfortaa', cursive;
+border: 1px solid black;
+}
+.exercise-form-btn-strength:hover{
+background-color: #FFCE48;
+}
+ .exercise-form-btn-custom:hover{
+    background-color: #F36E3D;
+}
+
+.exercise-form-btn-custom-container >img {
+    height: 200px;
+    width: auto;
+}
+.exercise-form-btn-strength-container >img {
+    height: 200px;
+    width: auto;
+}
+.exercise-form-btn-strength-container{
+    float: right;
+width: 50%;
+border-radius: 5px;
+
+
+
+}
+
+.exercise-form-btn-container{
+    width: 80%;
+   margin: 0 auto;
+   text-align: center;
+}
+.custom-exercise-form-container{
+width: 100%;
+text-align: center;
+}
+.strength-exercise-form-container{
+width: 100%;
+text-align: center;
+
+}
+.exercise-form-cancel{
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    width: 80px;
+    background-color: rgb(228, 78, 78);
+}
+.exercise-form-cancel:hover{
+    transform: scale(1.1);
+background-color: rgb(80, 19, 19);
+}
+@media only screen and (max-width: 500px) {
+    .exercise-form-btn-custom-container >img {
+        height: 150px;
+        width: auto;
+    }
+    .exercise-form-btn-strength-container >img {
+        height: 150px;
+        width: auto;
+    }  
+
+}

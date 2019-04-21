@@ -1,0 +1,85 @@
+.dashboard{
+  
+    font-family: 'Comfortaa', cursive;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.rbc-event:hover{
+background-color: pink;
+}
+.zumba{
+    background-color: rgb(162, 81, 136);
+}
+.running{
+    background-color: rgb(129, 172, 124);
+}
+.testing{
+    background-color: rgb(220, 210, 98);
+}
+.jogging{
+background-color: rgb(116, 142, 64);
+}
+.arms{
+background-color: palevioletred
+}
+.abs{
+background-color: #B3B3AF;
+}
+.back{
+background-color: #E4CDB4;
+}
+.legs{
+background-color: #EE5B40;
+}
+.shoulder{
+background-color: rgb(57, 142, 208);
+}
+.waterIntakeFormEdit{
+width: 30%;
+background-color: white;
+border: 2px solid black;
+}
+.waterintakeformedit-bttn-div{
+    float: right;
+}
+br{
+    clear: right;
+}
+.edit-waterintake-bttn{
+    float: right;
+    height: 44px;
+}
+.popup-content{
+    width: 200px !important;
+    z-index: 10 !important;
+    border: 3px solid rgb(44, 91, 160)  !important ;
+
+}
+.addwater-button{
+    padding-right: 15px;
+    margin-top: 4px;
+    background-color: white;
+    border: none;
+    float: right;
+}
+.addwater-button:hover{
+    border: 2px solid rgba(85, 157, 220, 0.708);
+    border-radius: 25px;
+}
+.close-button-water-intake-form{
+    border-radius: 5px;
+    background-color: #EE5B40;
+    height: 20px;
+    width: 50px;
+    color: white;
+}
+.close-button-water-intake-form:hover{
+    background-color: rgb(147, 55, 39);
+    transform: scale(1.1);
+}
+.today-text{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -5px;
+    padding-right: 50px;
+}

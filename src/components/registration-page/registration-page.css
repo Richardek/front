@@ -1,0 +1,20 @@
+
+.registration-form-container{
+padding-bottom: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .registration-form-container{
+        padding-bottom: 150px;
+        }
+}
+@media only screen and (max-width: 500px) {
+    .link-to-register-on-register button, .link-to-login button{
+    height: 40px;
+    }
+
+    .registration-form-container{
+        padding-bottom: 80px;
+        }
+}

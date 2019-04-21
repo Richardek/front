@@ -1,0 +1,159 @@
+nav {
+    overflow: hidden;
+    border-bottom: 2px solid #4b7ba9;;
+}
+button:focus {outline:0;}
+.logo-image{
+cursor: pointer;
+}
+
+.wideDiv > button:hover{
+  cursor: pointer;
+  color: #99C9ED;
+}
+
+
+.wideDiv > button{
+  font-family: 'Comfortaa', cursive;
+    font-weight: lighter;
+    text-decoration: none;
+
+    transition: color 0.1s, background-color 0.1s;
+}
+.wideDiv > button {
+  background:rgba(255,255,255,0.1);
+    border:none;
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: rgb(0, 0, 0);
+}
+.wideDiv > button::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #99C9ED;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+
+.wideDiv > button:active::before {
+    background-color: #99C9ED;
+}
+
+.wideDiv > button:hover::before, .wideDiv > button:focus::before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+  background-color: rgb(10, 41, 104);
+}
+
+.wideDiv > button:visited {
+    color:rgb(10, 41, 104);
+  }
+  nav .navWide {
+    display: none;
+    margin: 0 auto;
+  }
+  nav .navWide .navWide-title{
+      text-align: center;
+  }
+  nav .navWide .wideDiv {
+    text-align: center;
+  }
+  nav .navWide .wideDiv button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  .navNarrow{
+    background-color: #73aae9a7;
+  }
+  nav .navNarrow i {
+    float: left;
+    cursor: pointer;
+   color: black;
+   margin-top: 15px;
+    margin-left: 5px;
+  }
+  nav .navNarrow .narrowLinks {
+    display: none;
+  }
+  nav .navNarrow .narrowLinks button {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    display: block;
+    float: left;
+    clear: left;
+    padding: 0.5em 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    background-color: #a4c1e2a7;
+    border: none;
+  }
+  nav .navNarrow .narrowLinks{
+    background-color: rgba(62, 77, 89, 0.495);
+  }
+  nav .navNarrow .narrowLinks button:hover{
+    color: white;
+    transform: scale(1.1);
+    background-color: #384b5e83;
+  }
+  nav .navNarrow .narrowLinks button:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+  }
+  
+  nav .navNarrow .narrowLinks button:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+ div.title{
+    text-align: center;
+    font-size: 30px;
+ }
+
+ nav .navNarrow .narrowLinks button{
+  cursor: pointer;
+  font-size: 15px;
+}
+ 
+ 
+  @media (min-width: 600px) {
+    nav .navWide {
+      display: block;
+    }
+    nav .navNarrow {
+      display: none;
+
+    }
+    
+   
+  }
+  
